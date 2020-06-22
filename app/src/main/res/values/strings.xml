@@ -52,4 +52,12 @@
     <string name="old_password">Old Password</string>
     <string name="new_password">New Password</string>
     <string name="done12">Done</string>
+    <string name="name12">Name</string>
+
+    <string-array name="choose_type">
+        <item>Pilih Jenis</item>
+    </string-array>
+    <string-array name="choose_service">
+        <item>Pilih Pelayanan</item>
+    </string-array>
 </resources>

@@ -5,4 +5,137 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".APT.IsiDataActivity"/>
+    android:layout_gravity="center"
+    tools:context=".APT.IsiDataActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        tools:text="Nama" />
+
+    <EditText
+        android:id="@+id/nama_data_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text"
+        app:layout_constraintTop_toTopOf="@+id/text"
+        tools:ignore="Autofill,LabelFor,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <EditText
+        android:id="@+id/alamat_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rounded"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/text1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toEndOf="@+id/text1"
+        app:layout_constraintTop_toTopOf="@+id/text1"
+        app:layout_constraintVertical_bias="0.511"
+        tools:ignore="RtlSymmetry" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:backgroundTint="@color/black"
+        android:dropDownSelector="@drawable/round"
+        android:entries="@array/choose_type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alamat_customer"
+        app:layout_constraintVertical_bias="0.084" />
+
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:backgroundTint="@color/black"
+        android:entries="@array/choose_service"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alamat_customer"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Pelayanan"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner3"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <EditText
+        android:id="@+id/detail_pelayanan"
+        android:layout_width="294dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/text3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text3"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

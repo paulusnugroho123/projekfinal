@@ -12,5 +12,6 @@ public class IsiDataActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi_data);
+        getSupportActionBar().setTitle("Verifikasi Data Customer");
     }
 }
