@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:theme="@style/noActionBarr"
+    android:orientation="vertical"
+    tools:context=".SettingProfileActivity">
+
+    <ImageView
+        android:id="@+id/setting_gambar"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Setting Profile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:paddingEnd="12dp"
+        tools:ignore="MissingConstraints,RtlSymmetry"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="161dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/username12"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username_setting"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/rounded_edit"
+            android:drawableStart="@drawable/ic_account"
+            android:drawablePadding="3dp"
+            android:hint="@string/username12"
+            android:importantForAutofill="no"
+            android:paddingStart="7dp"
+            tools:ignore="LabelFor,TextFields" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/email12"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email_setting"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/rounded_edit"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawablePadding="3dp"
+            android:hint="@string/email12"
+            android:importantForAutofill="no"
+            android:paddingStart="7dp"
+            tools:ignore="LabelFor,TextFields" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/old_password"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/pas_old_pass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/rounded_edit"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="3dp"
+            android:hint="@string/old_password"
+            android:importantForAutofill="no"
+            android:paddingStart="7dp"
+            tools:ignore="LabelFor,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/new_password"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/pass_new_profile"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/rounded_edit"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="3dp"
+            android:hint="@string/new_password"
+            android:importantForAutofill="no"
+            android:paddingStart="7dp"
+            tools:ignore="LabelFor,TextFields" />
+
+
+        <Button
+            android:id="@+id/setting_profile"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_login"
+            android:text="@string/done12"
+            android:textColor="#ffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

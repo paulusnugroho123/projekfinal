@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/edit"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/setting_profile12" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/ic_content"
+            android:title="@string/schedule12" />
+        <item
+            android:id="@+id/report_rate"
+            android:icon="@drawable/ic_assignment"
+            android:title="@string/report_rate12" />
+        <item
+            android:id="@+id/isi_data"
+            android:title="@string/isi_data12"
+            android:icon="@drawable/ic_insert"/>
+    </group>
+</menu>
