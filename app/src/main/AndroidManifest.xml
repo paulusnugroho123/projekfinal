@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".APT.KorporasiActivity"></activity>
+        <activity android:name=".APT.TiketActivity"></activity>
+        <activity android:name=".APT.KorporasiActivity" />
         <activity android:name=".SettingProfileActivity" />
         <activity android:name=".APT.IsiDataActivity" />
         <activity android:name=".APT.ReportRateActivity" />
