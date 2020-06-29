@@ -54,10 +54,30 @@
     <string name="done12">Done</string>
     <string name="name12">Name</string>
 
-    <string-array name="choose_type">
-        <item>Pilih Jenis</item>
-    </string-array>
+
     <string-array name="choose_service">
         <item>Pilih Pelayanan</item>
+        <item>Kepala Kantor</item>
+        <item>PKN</item>
+        <item>KI</item>
+        <item>HI</item>
+        <item>Umum</item>
+        <item>Penilaian</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="identitas_tamu">
+        <item>Identitas Tamu</item>
+        <item>Perorangan</item>
+        <item>Korporasi</item>
+    </string-array>
+    <string-array name="Kartu_identitas">
+        <item>Kartu Identitas</item>
+        <item>KTP</item>
+        <item>SIM</item>
+        <item>Passport</item>
     </string-array>
 </resources>
