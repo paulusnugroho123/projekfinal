@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".APT.TiketActivity"></activity>
+        <activity android:name=".Supervisor.ScheduleTimeActivitySupervisor"></activity>
+        <activity android:name=".Supervisor.TiketActivitySuperVisor" />
+        <activity
+            android:name=".SupervisorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".APT.TiketActivity" />
         <activity android:name=".APT.KorporasiActivity" />
         <activity android:name=".SettingProfileActivity" />
         <activity android:name=".APT.IsiDataActivity" />
