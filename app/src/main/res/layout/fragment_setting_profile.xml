@@ -46,20 +46,22 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:layout_marginTop="10dp"
-            android:text="@string/username12"
+            android:text="Name"
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/username_setting"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="6dp"
+            android:textColor="#000"
             android:background="@drawable/rounded_edit"
-            android:drawableStart="@drawable/ic_account"
             android:drawablePadding="3dp"
-            android:hint="@string/username12"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:hint="Name"
             android:importantForAutofill="no"
             android:paddingStart="7dp"
             tools:ignore="LabelFor,TextFields" />
@@ -73,16 +75,18 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/email_setting"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="6dp"
+            android:textColor="#000"
             android:background="@drawable/rounded_edit"
-            android:drawableStart="@drawable/ic_email_black_24dp"
             android:drawablePadding="3dp"
-            android:hint="@string/email12"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:hint="Email"
             android:importantForAutofill="no"
             android:paddingStart="7dp"
             tools:ignore="LabelFor,TextFields" />
@@ -93,30 +97,32 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:layout_marginTop="10dp"
-            android:text="@string/old_password"
+            android:text="Unit"
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/pas_old_pass"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="6dp"
+            android:textColor="#000"
             android:background="@drawable/rounded_edit"
-            android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="3dp"
-            android:hint="@string/old_password"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:hint="Unit"
             android:importantForAutofill="no"
             android:paddingStart="7dp"
-            tools:ignore="LabelFor,TextFields" />
+            tools:ignore="LabelFor,TextFields"  />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:layout_marginTop="10dp"
-            android:text="@string/new_password"
+            android:text="Edit Password"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -126,13 +132,13 @@
             android:layout_height="40dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="6dp"
+            android:textColor="#000"
             android:background="@drawable/rounded_edit"
-            android:drawableStart="@drawable/ic_lock"
-            android:drawablePadding="3dp"
-            android:hint="@string/new_password"
+            android:textSize="15sp"
+            android:hint="Edit Password"
             android:importantForAutofill="no"
             android:paddingStart="7dp"
-            tools:ignore="LabelFor,TextFields" />
+            tools:ignore="LabelFor,TextFields"/>
 
 
         <Button

@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RatingActivity"></activity>
-        <activity android:name=".Supervisor.ScheduleTimeActivitySupervisor" />
+        <activity android:name=".SeksiTerkait.TiketSeksiTerkaitActivity"></activity>
+        <activity
+            android:name=".SeksiTerkaitActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RatingActivity" />
         <activity android:name=".Supervisor.TiketActivitySuperVisor" />
         <activity
             android:name=".SupervisorActivity"

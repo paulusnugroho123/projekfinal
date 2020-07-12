@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/drawer"
+    android:id="@+id/drawer_supervisor"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
     tools:context=".APTActivity">
@@ -26,5 +26,5 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_apt"
-        app:menu="@menu/activity_a_p_t_drawer" />
+        app:menu="@menu/activity_supervisor_drawer"/>
 </androidx.drawerlayout.widget.DrawerLayout>

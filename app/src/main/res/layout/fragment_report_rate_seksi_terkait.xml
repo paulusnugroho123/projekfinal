@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Supervisor.ReportRateSupervisorFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:outlineAmbientShadowColor="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Report Rate"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:padding="2dp"
+                android:layout_marginVertical="30dp">
+
+                <TableRow
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="No"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/border"
+                        android:text="Nama Cust"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/border"
+                        android:text="Detail Perjanjian"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/border"
+                        android:text="Validasi Perjanjian"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/border"
+                    android:backgroundTint="#fff">
+
+                    <TextView
+                        android:id="@+id/no_report_seksiTerkait"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/border"
+                        android:text="01"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/nama_cust_report_seksiTerkait"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="aaa"
+                        android:background="@drawable/border"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pelayanan_report_seksiTerkait"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="a"
+                        android:background="@drawable/border"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_Tolak_seksiTer"
+                            android:layout_width="60dp"
+                            android:layout_height="30dp"
+                            android:backgroundTint="#22CAB4"
+                            android:text="Tolak"
+                            android:textColor="#FFFFFF"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_Terima_seksiTer"
+                            android:layout_width="60dp"
+                            android:layout_height="30dp"
+                            android:backgroundTint="#E19E2B"
+                            android:text="Terima"
+                            android:textColor="#FFFFFF"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
