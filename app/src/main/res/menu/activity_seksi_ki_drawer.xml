@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/edit_seksi_ki"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/setting_profile12" />
+        <item
+            android:id="@+id/schedule_seksi_ki"
+            android:icon="@drawable/ic_content"
+            android:title="@string/schedule12" />
+        <item
+            android:id="@+id/validasi_rate_seksi_ki"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/validasi_rate" />
+    </group>
+</menu>

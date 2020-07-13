@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".APT.ScheduleActivity">
+    tools:context=".Supervisor.ScheduleTimeSupervisorFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -33,6 +31,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:text="No"
                         android:textStyle="bold"
                         android:layout_weight="1"
@@ -42,6 +41,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="Nama Cust"
@@ -51,6 +51,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:text="Pelayanan"
                         android:textStyle="bold"
                         android:layout_weight="1"
@@ -59,6 +60,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:text="Waktu Pertemuan"
                         android:textStyle="bold"
                         android:layout_weight="1"
@@ -69,6 +71,7 @@
                     android:background="@color/white">
                     <TextView
                         android:id="@+id/no_schedule_time_apt"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01"
@@ -80,6 +83,7 @@
                         android:id="@+id/nama_cust_apt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:background="@drawable/border"
@@ -90,6 +94,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/border"
+                        android:textColor="@color/black"
                         android:text="a"
                         android:textStyle="bold"
                         android:layout_weight="1"
@@ -98,6 +103,7 @@
                         android:id="@+id/waktu_apt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:background="@drawable/border"
                         android:text="aaaaa"
                         android:textStyle="bold"
@@ -107,4 +113,5 @@
             </TableLayout>
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>

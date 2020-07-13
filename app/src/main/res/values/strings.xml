@@ -53,6 +53,7 @@
     <string name="new_password">New Password</string>
     <string name="done12">Done</string>
     <string name="name12">Name</string>
+    <string name="validasi_rate">Validasi Rate</string>
 
 
     <string-array name="choose_service">
