@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Supervisor.ScheduleTimeActivitySupervisor">
+    tools:context=".SeksiKI.ScheduleSeksiKIFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -72,7 +70,7 @@
                 <TableRow
                     android:background="@color/white">
                     <TextView
-                        android:id="@+id/no_schedule_time_seksiTer"
+                        android:id="@+id/no_schedule_time_ki"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -82,7 +80,7 @@
                         android:background="@drawable/border"
                         android:gravity="center"/>
                     <TextView
-                        android:id="@+id/nama_cust_seksiTer"
+                        android:id="@+id/nama_cust_ki"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
@@ -92,7 +90,7 @@
                         android:text="aaa"
                         android:textStyle="bold" />
                     <TextView
-                        android:id="@+id/pelayanan_seksiTer"
+                        android:id="@+id/pelayanan_ki"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/border"
@@ -102,7 +100,7 @@
                         android:layout_weight="1"
                         android:gravity="center"/>
                     <TextView
-                        android:id="@+id/waktu_seksiTer"
+                        android:id="@+id/waktu_ki"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
