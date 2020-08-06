@@ -23,10 +23,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".APT.TiketActivity" />
         <activity android:name=".APT.KorporasiActivity" />
-        <activity android:name=".SettingProfileActivity" />
-        <activity android:name=".APT.IsiDataActivity" />
+        <activity android:name=".SettingProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".APT.IsiDataActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".APT.ReportRateActivity" />
-        <activity android:name=".APT.ScheduleActivity" />
         <activity
             android:name=".APTActivity"
             android:theme="@style/AppTheme.NoActionBar" />

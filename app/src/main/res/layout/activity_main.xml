@@ -10,21 +10,38 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
         tools:ignore="MissingConstraints">
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/log_in12" />
+            android:backgroundTint="#D5A805"
+            android:text="@string/log_in12"
+            android:layout_marginTop="60dp"
+            android:textColor="#EDE7E7"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-120dp"
+            tools:srcCompat="@tools:sample/avatars" />
 
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/register12" />
+            android:backgroundTint="#B30E94B5"
+            android:layout_marginTop="60dp"
+            android:text="@string/register12"
+            android:textColor="#F1EEEE"
+            android:textStyle="bold" />
+
+
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

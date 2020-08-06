@@ -26,5 +26,5 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_apt"
-        app:menu="@menu/activity_a_p_t_drawer" />
+        app:menu="@menu/activity_kepala_kantor_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -9,6 +9,8 @@
     tools:openDrawer="start"
     tools:context=".SeksiKIActivity">
 
+
+
     <include
         layout="@layout/drawer_toolbar_apt"
         android:layout_width="match_parent"

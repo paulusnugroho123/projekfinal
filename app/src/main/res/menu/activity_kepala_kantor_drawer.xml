@@ -12,6 +12,6 @@
     <item
         android:id="@+id/report_kepala_kantor"
         android:icon="@drawable/ic_assignment"
-        android:title="@string/report_rate12" />
+        android:title="Report" />
     </group>
 </menu>
